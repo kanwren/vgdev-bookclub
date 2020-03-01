@@ -36,4 +36,10 @@ in {
     longName = "Colossal Cave Adventure";
     storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/zcode/Advent.z5;
   };
+
+  galatea = mkGargoyle {
+    name = "galatea";
+    longName = "Galatea";
+    storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/zcode/Galatea.zblorb;
+  };
 }
