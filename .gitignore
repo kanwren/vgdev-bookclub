@@ -1,1 +1,5 @@
+# Nix
 result*
+
+# Gargoyle save files
+*.sav
