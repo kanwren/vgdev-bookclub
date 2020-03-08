@@ -25,4 +25,10 @@ in {
     longName = "9:05";
     storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/zcode/905.z5;
   };
+
+  counterfeit-monkey = mkGargoyle {
+    name = "counterfeit-monkey";
+    longName = "Counterfeit Monkey";
+    storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/glulx/CounterfeitMonkey.gblorb;
+  };
 }
