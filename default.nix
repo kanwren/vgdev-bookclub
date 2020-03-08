@@ -20,8 +20,8 @@ in {
     storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/zcode/Galatea.zblorb;
   };
 
-  z905 = mkGargoyle {
-    name = "z905";
+  nineohfive = mkGargoyle {
+    name = "nineohfive";
     longName = "9:05";
     storyfile = builtins.fetchurl http://mirror.ifarchive.org/if-archive/games/zcode/905.z5;
   };
